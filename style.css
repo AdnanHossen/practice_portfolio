@@ -1,6 +1,7 @@
 body{
   font-family: 'Prompt', sans-serif;
   box-sizing: border-box;
+  background-color: #152238;
   /* background-color: #080705;
   color: #A8763E;  */
 }
@@ -9,7 +10,8 @@ body{
   font-weight: 700;
   font-size: 50px;
   text-transform: uppercase;
-  text-shadow: 3px 2px 2px grey;
+  text-shadow: 3px 2px 2px black;
+  color: white;
 }
 
 .header{
@@ -53,8 +55,9 @@ body{
 }
 
 .section-1-div p{
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 80px;
+  color: white;
 }
 
 /* start of section 2 */
@@ -79,12 +82,13 @@ body{
 .section-2-header{
   font-weight: 700;
   font-size: 55px;
-  text-shadow: 2px 2px 2px grey;
+  text-shadow: 2px 2px 2px black;
   text-transform: capitalize;
   box-shadow: 10px 10px 30px grey;
   border-radius: 10px;
   margin-left: 300px;
   margin-right: 300px;
+  color: white;
 }
 
 .sec-header {
@@ -105,10 +109,9 @@ span.sec-header:hover{
 .section-2-div p {
   text-align: justify;
   margin: 40px 30px 40px 30px;
-  font-weight: 900;
-  color: rgba(3, 19, 65, 0.993);
-  
-  font-size: 18px;
+  font-weight: 500;
+  color: white; 
+
 }
 
 /* section 3 starts */
@@ -146,6 +149,7 @@ span.sec-header:hover{
 .variant-coffee-part1-div{
   padding: 30px 80px 30px 80px ;
   margin: 40px;
+  color: white;
   box-shadow: 15px 15px 30px grey;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px; 
@@ -154,9 +158,25 @@ span.sec-header:hover{
 .variant-coffee-part2-div{
   padding: 30px 80px 30px 80px ;
   margin: 40px;
+  color: white;
   box-shadow: 10px 10px 30px grey;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
+}
+
+.variant-coffee-part1-div h3{
+  color: rgb(238, 105, 91);
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px black;
+}
+
+
+.variant-coffee-part2-div h3{
+  color: rgb(238, 105, 91);
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .slice-1{
@@ -172,15 +192,119 @@ span.sec-header:hover{
 }
 
 .ver-2{
-    padding-left: 30px;
+    padding-left: 150px;
     color: white;
-    background: linear-gradient(grey, black);
+    /* background: linear-gradient(black, salmon); */
     margin-bottom: 100px;
     margin-top: 100px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 10px 10px 50px grey;
 }
 
 
 
+
+
+
+    /* forms and others will start from here */
+
+.fourth-section{
+  display: inline;
+  /* margin-bottom: 200px;
+  margin-top: 200px; */
+}
+
+.fourth-section h3{
+  color: rgb(238, 105, 91);
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px black;
+  border-left: 5px solid white;
+  /* border-image: linear-gradient(rgb(214, 61, 34),salmon );
+  border-image-slice: 1; */
+  border-radius: 2px;
+}
+
+.fourth-section-block{
+  padding: 10px 40px 10px 60px;
+  color: white;
+}
+
+.fourths-section-div-1{
+  background-image: url(./images/espress-trans.png);
+  background-position: right;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 70px 600px 70px 50px;
+  background-size: 40%;
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 40px;
+}
+
+
+
+.fourths-section-div-2{
+  background-image: url(./images/espes-dou.png);
+  background-position: left;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 70px 0px 70px 600px;
+  background-size: 40%;
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 40px;
+}
+
+
+.fourths-section-div-3{
+  background-image: url(./images/red_eye.png);
+  background-position: right;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 70px 40px 70px 50px;
+  background-size: 40%;
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 40px;
+
+}
+
+
+.fourths-section-div-4{
+  background-image: url(./images/black_eye.png);
+  background-position: left;
+  background-position-y: center;
+  background-position-x: -180px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 70px 0px 70px 600px;
+  background-size: 60%;
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 40px;
+
+}
+
+
+
+.fourths-section-div-5{
+  background-image: url(./images/americano.png);
+  background-position: right;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 70px 400px 70px 50px;
+  background-size: 40%;
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 40px;
+
+}
+
+ul {
+  list-style-type: square;
+  list-style-image: linear-gradient(salmon,tomato);
+}
 
 
 
